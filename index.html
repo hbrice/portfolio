@@ -1,26 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html ng-app="myApp">
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js" />
+    <script src="js/main.js" />
   </head>
   <body>
-  	<h2>Hollys APP </h2>
-		<div ng-controller="PlayerController"> 
-		<button ng-click="play()" class="button" ng-show="!playing">Play</button>
-		<button ng-click="stop()" class="button alert" ng-show="playing">Stop</button>
- 		Playing audio: <b>{{ playing }}</b>
-		</div>
-    <div ng-controller="MyController">
-      <input type="text" ng-model="person.name" placeholder="holly" /><h5>Hello, {{ person.name }} </h5>
+    <header>The Portfolio of Holly Brice</header>
+    <content>hello</content>
+    <footer></footer>
+
+
+<!--
+    <h2>I am not inside an AngularJS app</h2>
+    <div ng-app="embeddedApp">
+      <h3>Inside app</h3>
+      {{ name }}
     </div>
 
-    <div ng-controller="DemoController">
-      <h4>The simplest adding machine ever</h4>
-      <button ng-click="add(1)" class="button">Add</button>
-      <button ng-click="subtract(1)" class="button">Subtract</button>
-      <h4>Current count: {{ counter }}</h4>
-    </div>
-
+    <button ng-click="counter = counter +1">Add one</button>
+    Current Counter:{{ counter }}
+-->
   </body>
 </html>

@@ -1,0 +1,69 @@
+/*School Work*/
+
+.imgdesign {
+	width: 200px;
+}
+
+.shirtdiv {
+	background-color: white;
+	width:60%;
+	text-align: center;
+	margin: auto;
+	border: solid 2px #42dca3;
+}
+
+.logodiv {
+	width: 60%;
+	text-align: center;
+	margin: auto;
+	border: solid 2px #42dca3;
+}
+
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+	width:100%;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.navdrop{
+	height: 200px;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.schoolworkdiv{
+	/*background-color: white;*/
+	width:60%;
+	text-align: center;
+	margin: auto;
+	/*border: solid 2px #42dca3;*/
+}
+
+.bookimg {
+	width: 600px;
+}
+
+.biolio{
+	width:100%;
+}
+
+#work {
+
+}
+
+.aliceproj {
+	width: 200px;
+}
+
+
+.band {
+	width:200px;
+}
+
